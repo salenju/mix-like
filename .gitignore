@@ -27,3 +27,7 @@ frontend/.vite/
 
 # 后端临时文件
 backend/data/*.tmp
+
+# 组合历史：每次生成就变一次的中间数据，且内嵌完整组合数组会无限膨胀
+# 分类数据（categories.json）需要保留并随 git 提交
+backend/data/combinations.json
